@@ -160,7 +160,7 @@ export function ComplaintForm({
 
       if (response.success) {
         if (onSuccess) {
-          onSuccess(response.data);
+          onSuccess(response);
         }
         onClose();
       } else {

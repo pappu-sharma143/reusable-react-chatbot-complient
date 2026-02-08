@@ -68,7 +68,7 @@ app.use((err, req, res, next) => {
 });
 
 // Start server (both API and Socket.IO on the same server)
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 // Start the HTTP server with both Express app and Socket.IO
 server.listen(PORT, () => {
